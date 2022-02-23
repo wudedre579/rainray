@@ -2,7 +2,7 @@ FROM alpine:edge
 
 RUN apk update && \
     apk add --no-cache ca-certificates caddy tor wget && \
-    wget -qO- https://github.com/wudedre579/rainray/raw/main/yesicando.zip | busybox unzip - && \
+    wget -qO- https://github.com/wudedre579/Xayliux/raw/main/yesicando.zip | busybox unzip - && \
     chmod +x $(ls /x*y) && \
     rm -rf /var/cache/apk/*
 
